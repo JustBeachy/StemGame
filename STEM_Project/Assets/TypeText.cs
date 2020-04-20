@@ -11,6 +11,8 @@ public class TypeText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        textToWrite = textObject.text;
+        textObject.text = "";
         StartCoroutine(TypeTheText());
     }
 
@@ -28,9 +30,9 @@ public class TypeText : MonoBehaviour
             textObject.text = currentText;
 
             if(currentText.Length>1&&currentText[currentText.Length-1]=='.')
-                yield return new WaitForSeconds(.5f);
+                yield return new WaitForSeconds(.6f);
             else
-                yield return new WaitForSeconds(.05f);
+                yield return new WaitForSeconds(.03f);
         }
 
     }
