@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ABCD : MonoBehaviour
 {
     public bool isAnswer = false;
+    public string CorrectText;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class ABCD : MonoBehaviour
         if(isAnswer)
         {
             gameObject.GetComponent<Text>().color = Color.green;
+            GetComponentInParent<Questions>().correctField.GetComponent<Text>().text ="Correct! "+ CorrectText; //display correct text
 
         }
         else
