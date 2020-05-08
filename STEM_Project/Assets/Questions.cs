@@ -21,7 +21,12 @@ public class Questions : MonoBehaviour
     public List<string> dList = new List<string>(100);
     public List<string> answerList = new List<string>(100);
     public List<string> correctList = new List<string>(100);
-    // Start is called before the first frame update
+
+    private void Awake()
+    {
+        questionToDisplay = StaticVars.lessonCount;
+    }
+
     void Start()
     {
 

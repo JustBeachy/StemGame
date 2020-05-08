@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ABCD.cs" />
+    <Compile Include="Assets\ArrowBob.cs" />
+    <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\CurrentDevice.cs" />
     <Compile Include="Assets\DragArea.cs" />
     <Compile Include="Assets\Draggable.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
@@ -74,9 +77,12 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Lesson.cs" />
     <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\NextButton.cs" />
+    <Compile Include="Assets\PinUnlock.cs" />
     <Compile Include="Assets\Questions.cs" />
     <Compile Include="Assets\SimpleCreateDestroy.cs" />
     <Compile Include="Assets\StaticVars.cs" />
+    <Compile Include="Assets\SwipeUnlock.cs" />
     <Compile Include="Assets\TypeText.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>B:/Games/STEM_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

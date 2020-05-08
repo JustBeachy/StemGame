@@ -1,0 +1,118 @@
+; FBX 6.1.0 project file
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+	Creator: "3D Slash"
+}
+Definitions:  {
+	Version: 100
+	Count: 4
+	ObjectType: "Model" {
+		Count: 1
+	}
+	ObjectType: "Material" {
+		Count: 1
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+}
+Objects:  {
+	Model: "Model::default", "Mesh" {
+		Version: 232
+		MultiLayer: 0
+		MultiTake: 0
+		Shading: Y
+		Culling: "CullingOff"
+		Vertices: 24,0,24,24,8,24,24,8,32,24,0,32,16,8,24,16,16,24,16,16,32,16,8,32,8,16,24,8,24,24,8,24,32,8,16,32,24,24,24,24,56,24,24,56,32,24,24,32,32,0,32,32,0,24,32,8,24,32,8,32,40,8,32,40,8,24,40,16,24,40,16,32,48,16,32,48,16,24,48,24,24,32,24,24,32,56,24,48,24,32,32,24,32,32,56,32
+		PolygonVertexIndex: 15,30,31,-15,11,24,29,-11,7,20,23,-7,3,16,19,-3,13,14,31,-29,27,30,29,-27,9,10,15,-13,27,28,31,-31,25,26,29,-25,21,22,23,-21,17,18,19,-17,12,13,28,-28,8,9,26,-26,4,5,22,-22,0,1,18,-18,22,25,24,-24,18,21,20,-20,8,5,6,-12,4,1,2,-8,0,17,16,-4,12,15,14,-14,8,11,10,-10,4,7,6,-6,0,3,2,-2
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: 0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+		}
+		NodeAttributeName: "Geometry::default_ncl1_1"
+	}
+	Material: "Material::mat0", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Phong"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "Color", "A",0,0,0
+			Property: "EmissiveFactor", "Number", "A",1
+			Property: "AmbientColor", "Color", "A",0.5,0.5,0.5
+			Property: "AmbientFactor", "Number", "A",1
+			Property: "DiffuseColor", "Color", "A",1,1,1
+			Property: "DiffuseFactor", "Number", "A",1
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "NormalMap", "Vector3D", "",0,0,0
+			Property: "BumpFactor", "double", "",1
+			Property: "TransparentColor", "Color", "A",0,0,0
+			Property: "TransparencyFactor", "Number", "A",0
+			Property: "DisplacementColor", "ColorRGB", "",0,0,0
+			Property: "DisplacementFactor", "double", "",1
+			Property: "VectorDisplacementColor", "ColorRGB", "",0,0,0
+			Property: "VectorDisplacementFactor", "double", "",1
+			Property: "SpecularColor", "Color", "A",0,0,0
+			Property: "SpecularFactor", "Number", "A",1
+			Property: "ShininessExponent", "Number", "A",20
+			Property: "ReflectionColor", "Color", "A",0,0,0
+			Property: "ReflectionFactor", "Number", "A",1
+			Property: "Emissive", "Vector3D", "",0,0,0
+			Property: "Ambient", "Vector3D", "",0.5,0.5,0.5
+			Property: "Diffuse", "Vector3D", "",1,1,1
+			Property: "Specular", "Vector3D", "",0,0,0
+			Property: "Shininess", "double", "",20
+			Property: "Opacity", "double", "",1
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	GlobalSettings:  {
+		Version: 1000
+		Properties60:  {
+			Property: "UpAxis", "int", "",1
+			Property: "UpAxisSign", "int", "",1
+			Property: "FrontAxis", "int", "",2
+			Property: "FrontAxisSign", "int", "",1
+			Property: "CoordAxis", "int", "",0
+			Property: "CoordAxisSign", "int", "",1
+			Property: "OriginalUpAxis", "int", "",-1
+			Property: "OriginalUpAxisSign", "int", "",1
+			Property: "UnitScaleFactor", "double", "",0.1
+			Property: "OriginalUnitScaleFactor", "double", "",1
+			Property: "AmbientColor", "ColorRGB", "",0,0,0
+			Property: "DefaultCamera", "KString", "", "Producer Perspective"
+			Property: "TimeMode", "enum", "",0
+			Property: "TimeSpanStart", "KTime", "",0
+			Property: "TimeSpanStop", "KTime", "",46186158000
+			Property: "CustomFrameRate", "double", "",-1
+		}
+	}
+}
+Connections:  {
+	Connect: "OO", "Model::default", "Model::Scene"
+	Connect: "OO", "Material::mat0", "Model::default"
+}

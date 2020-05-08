@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IPointerDownHandler
 {
     private bool dragging;
     public string AreaName;
-
+    public Text correctTxt;
     public bool inCorrectSpot = false;
-    
+    float timer = -5;
+    public GameObject toDestroy;
+    public bool isLeader = false;
 
     private void Start()
     {
@@ -37,17 +40,33 @@ public class Draggable : MonoBehaviour, IPointerDownHandler
                     break;
                 }
             }
-            if (allCorrect)
-                print("correct");
+            if (allCorrect)///////if all correct
+            {
+                if(correctTxt!=null)
+                correctTxt.text = "Correct!";
+                timer = 2;
+                
+            }
                
         }
 
+        if(timer>=0)
+            timer -= Time.deltaTime;
+
+        if (timer < 0 && timer > -5)
+        {
+            if (isLeader)
+            {
+                GameObject.FindGameObjectWithTag("Controller").GetComponent<Controller>().NextStep();
+                Destroy(toDestroy);
+            }
+        }
 
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (Input.GetMouseButton(0))
+        
             dragging = true;
     }
 

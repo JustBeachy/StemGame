@@ -12,6 +12,8 @@ public class Lesson : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        lessonToDisplay = StaticVars.lessonCount;
+    
         LoadLessons();
 
 
@@ -37,14 +39,14 @@ public class Lesson : MonoBehaviour
     void LoadLessons()
     {
         //0 Question 1
-        lessonText.Add("Whenever using technology at school, you are either the object and subject.");
+        lessonText.Add("Whenever using technology at school, you are either the object or the subject.");
         //1
         lessonText.Add("OBJECTS are the passive element in a security relationship, such as computers or phones.");
         //2
-        lessonText.Add("SUBJECTS are the active element in the security relationship, such as users or students.");
+        lessonText.Add("SUBJECTS are the active element in the security relationship, such as users or people.");
 
         //3 Question 2
-        lessonText.Add("(Our school security starts out with focusing on 3 main ideas: confidentiality, integrity, and availability.");
+        lessonText.Add("Our school security starts out with focusing on 3 main ideas: confidentiality, integrity, and availability.");
         //4
         lessonText.Add("CONFIDENTIALITY protects and prevents/minimizes uauthorized access to your information/data.");
         //5
@@ -53,7 +55,7 @@ public class Lesson : MonoBehaviour
         lessonText.Add("AVAILABILITY allows authorized users to access information/data in a timely manner.");
 
         //7 Question 3, 4, and 5
-        lessonText.Add("To stop hackers/attackers are school further relies on the defense-in-depth approach that consists of 4 protective mechanisms; layering, abstraction, data hiding, & encryption.");
+        lessonText.Add("To stop hackers/attackers our school further relies on the defense-in-depth approach that consists of 4 protective mechanisms; layering, abstraction, data hiding, & encryption.");
         //8
         lessonText.Add("LAYERING is also known as defense-in-depth and simply uses multiple controls in a series for security.");
         //9
@@ -79,20 +81,20 @@ public class Lesson : MonoBehaviour
         lessonText.Add("Whenever you use a school device you are assigned a username, password, occasionally a number that correlates to your device, & are always supervised to ensure your safety from hackers/attackers.");
         //19
         lessonText.Add("Your school uses “AAA Services”; authentication, authorize, & audit.");
-        //18
-        lessonText.Add("AUTHENTICATION verifies the claimed identity, example of this are passwords or pins.");
-        //19
-        lessonText.Add("AUTHORIZE ensures that the subject has proper rights/privileges to access object, example of this is a username or login ID number.");
         //20
+        lessonText.Add("AUTHENTICATION verifies the claimed identity, example of this are passwords or pins.");
+        //21
+        lessonText.Add("AUTHORIZE ensures that the subject has proper rights/privileges to access object, example of this is a username or login ID number.");
+        //22
         lessonText.Add("AUDIT monitors, tracks, and records the sujects actions to their safe and using the object for the intended use, an example of this is your teacher, principal, or IT person seeing your school work or username.");
 
-        //21 Question 8
+        //23 Question 8
         lessonText.Add("No matter how secure our school is humans are the weakest link, this is because we by nature want to believe everyone is doing the right thing & trust them. Yet in order to ensure hackers/attackers are stopped we should have; separation of duties, job responsibilities, & job rotation.");
-        //22
-        lessonText.Add("SEPARATION OF DUTIES divides important and sensitive work tasks among the proper subject.");
-        //23
-        lessonText.Add("JOB RESPONSIBILITIES is the specific work task each subject is required to do on a daily basis.");
         //24
+        lessonText.Add("SEPARATION OF DUTIES divides important and sensitive work tasks among the proper subject.");
+        //25
+        lessonText.Add("JOB RESPONSIBILITIES is the specific work task each subject is required to do on a daily basis.");
+        //26
         lessonText.Add("JOB ROTATION moves subjects from different areas to improve overall security.");
 
         //25 Question 9 and 10
