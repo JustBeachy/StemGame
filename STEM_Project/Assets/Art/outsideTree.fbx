@@ -1,0 +1,155 @@
+; FBX 6.1.0 project file
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+	Creator: "3D Slash"
+}
+Definitions:  {
+	Version: 100
+	Count: 5
+	ObjectType: "Model" {
+		Count: 1
+	}
+	ObjectType: "Material" {
+		Count: 2
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+}
+Objects:  {
+	Model: "Model::default", "Mesh" {
+		Version: 232
+		MultiLayer: 0
+		MultiTake: 0
+		Shading: Y
+		Culling: "CullingOff"
+		Vertices: 30,0,30,30,4,30,30,4,38,30,0,38,28,24,20,28,32,20,28,32,24,28,24,24,24,24,24,24,32,24,24,32,28,24,24,28,36,32,24,36,36,24,36,36,28,36,32,28,20,24,28,20,28,28,20,28,36,20,24,36,24,28,28,24,32,36,24,28,36,24,24,36,24,28,44,24,24,44,28,24,44,28,28,44,28,28,48,28,24,48,32,4,32,32,24,32,32,24,36,32,4,36,32,28,40,32,32,40,32,32,44,32,28,44,28,32,28,28,36,28,28,36,36,28,32,36,28,28,36,28,36,40,28,28,40,32,36,28,32,40,28,32,40,36,32,36,36,40,24,24,40,24,20,44,24,28,44,24,32,48,24,32,48,24,28,38,0,38,38,0,30,36,24,32,36,24,36,48,24,36,36,24,48,36,24,44,32,24,44,44,24,44,44,24,36,32,24,24,44,24,24,38,4,30,32,24,20,32,32,20,40,28,20,32,28,20,36,28,20,36,32,20,44,28,24,40,28,24,48,28,28,44,28,28,36,28,24,40,36,24,36,40,28,36,4,32,40,28,32,44,28,32,44,32,32,40,32,32,38,4,38,40,36,32,36,36,32,36,40,32,36,4,36,48,28,36,44,28,36,44,32,36,44,24,40,44,32,40,40,28,40,40,28,44,40,32,44,40,32,40,36,28,48,36,28,44,44,28,44,44,28,40,36,32,32,36,32,36,36,40,36,36,32,40,36,36,40,36,36,36,38,4,32,30,4,32,32,4,38,38,4,36,32,28,48,32,36,40
+		PolygonVertexIndex: 35,107,108,-116,48,109,106,-48,44,34,115,-44,61,63,102,-102,29,60,100,-29,37,97,98,-37,96,103,95,-100,64,59,91,-93,33,90,58,-33,25,26,27,-25,22,42,41,-22,19,23,22,-19,104,85,87,-89,3,55,86,-3,48,115,108,-110,46,47,106,-81,39,43,115,-46,96,97,102,-104,37,114,100,-102,35,36,98,-100,104,107,95,-85,77,92,91,-77,44,28,114,-35,22,24,27,-43,10,21,41,-39,17,18,22,-21,13,88,87,-80,75,82,83,-75,9,10,15,-13,5,6,12,-74,72,78,75,-71,33,112,86,-114,81,90,113,-111,111,2,112,-31,1,111,110,-68,105,109,108,-108,104,89,106,-106,94,103,102,-64,61,101,100,-61,96,99,98,-98,64,93,95,-95,83,84,93,-93,54,76,91,-60,81,57,58,-91,14,80,89,-89,75,79,87,-83,66,74,77,-52,72,73,12,-79,50,70,75,-50,56,67,86,-56,82,85,84,-84,30,31,57,-82,45,46,80,-15,38,39,14,-16,78,13,79,-76,51,77,76,-55,49,75,74,-67,71,69,73,-73,68,71,70,-51,8,9,6,-8,16,17,20,-12,4,5,69,-69,0,1,67,-57,65,66,52,-32,8,65,62,-26,32,64,63,-63,26,61,60,-30,57,53,59,-59,0,56,55,-4,16,11,23,-20,51,54,53,-53,4,50,49,-8,45,48,47,-47,42,44,43,-41,38,41,40,-40,34,37,36,-36,30,33,32,-32,26,29,28,-28,23,25,24,-23,20,22,21,-11,16,19,18,-18,12,15,14,-14,8,11,10,-10,4,7,6,-6,0,3,2,-2
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: 0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: 0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+		}
+		NodeAttributeName: "Geometry::default_ncl1_1"
+	}
+	Material: "Material::mat1", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Phong"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "Color", "A",0,0,0
+			Property: "EmissiveFactor", "Number", "A",1
+			Property: "AmbientColor", "Color", "A",0.5,0.264706,0.103922
+			Property: "AmbientFactor", "Number", "A",1
+			Property: "DiffuseColor", "Color", "A",1,0.529412,0.207843
+			Property: "DiffuseFactor", "Number", "A",1
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "NormalMap", "Vector3D", "",0,0,0
+			Property: "BumpFactor", "double", "",1
+			Property: "TransparentColor", "Color", "A",0,0,0
+			Property: "TransparencyFactor", "Number", "A",0
+			Property: "DisplacementColor", "ColorRGB", "",0,0,0
+			Property: "DisplacementFactor", "double", "",1
+			Property: "VectorDisplacementColor", "ColorRGB", "",0,0,0
+			Property: "VectorDisplacementFactor", "double", "",1
+			Property: "SpecularColor", "Color", "A",0,0,0
+			Property: "SpecularFactor", "Number", "A",1
+			Property: "ShininessExponent", "Number", "A",20
+			Property: "ReflectionColor", "Color", "A",0,0,0
+			Property: "ReflectionFactor", "Number", "A",1
+			Property: "Emissive", "Vector3D", "",0,0,0
+			Property: "Ambient", "Vector3D", "",0.5,0.264706,0.103922
+			Property: "Diffuse", "Vector3D", "",1,0.529412,0.207843
+			Property: "Specular", "Vector3D", "",0,0,0
+			Property: "Shininess", "double", "",20
+			Property: "Opacity", "double", "",1
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Material: "Material::mat0", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Phong"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "Color", "A",0,0,0
+			Property: "EmissiveFactor", "Number", "A",1
+			Property: "AmbientColor", "Color", "A",0.152941,0.427451,0.192157
+			Property: "AmbientFactor", "Number", "A",1
+			Property: "DiffuseColor", "Color", "A",0.305882,0.854902,0.384314
+			Property: "DiffuseFactor", "Number", "A",1
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "NormalMap", "Vector3D", "",0,0,0
+			Property: "BumpFactor", "double", "",1
+			Property: "TransparentColor", "Color", "A",0,0,0
+			Property: "TransparencyFactor", "Number", "A",0
+			Property: "DisplacementColor", "ColorRGB", "",0,0,0
+			Property: "DisplacementFactor", "double", "",1
+			Property: "VectorDisplacementColor", "ColorRGB", "",0,0,0
+			Property: "VectorDisplacementFactor", "double", "",1
+			Property: "SpecularColor", "Color", "A",0,0,0
+			Property: "SpecularFactor", "Number", "A",1
+			Property: "ShininessExponent", "Number", "A",20
+			Property: "ReflectionColor", "Color", "A",0,0,0
+			Property: "ReflectionFactor", "Number", "A",1
+			Property: "Emissive", "Vector3D", "",0,0,0
+			Property: "Ambient", "Vector3D", "",0.152941,0.427451,0.192157
+			Property: "Diffuse", "Vector3D", "",0.305882,0.854902,0.384314
+			Property: "Specular", "Vector3D", "",0,0,0
+			Property: "Shininess", "double", "",20
+			Property: "Opacity", "double", "",1
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	GlobalSettings:  {
+		Version: 1000
+		Properties60:  {
+			Property: "UpAxis", "int", "",1
+			Property: "UpAxisSign", "int", "",1
+			Property: "FrontAxis", "int", "",2
+			Property: "FrontAxisSign", "int", "",1
+			Property: "CoordAxis", "int", "",0
+			Property: "CoordAxisSign", "int", "",1
+			Property: "OriginalUpAxis", "int", "",-1
+			Property: "OriginalUpAxisSign", "int", "",1
+			Property: "UnitScaleFactor", "double", "",0.1
+			Property: "OriginalUnitScaleFactor", "double", "",1
+			Property: "AmbientColor", "ColorRGB", "",0,0,0
+			Property: "DefaultCamera", "KString", "", "Producer Perspective"
+			Property: "TimeMode", "enum", "",0
+			Property: "TimeSpanStart", "KTime", "",0
+			Property: "TimeSpanStop", "KTime", "",46186158000
+			Property: "CustomFrameRate", "double", "",-1
+		}
+	}
+}
+Connections:  {
+	Connect: "OO", "Model::default", "Model::Scene"
+	Connect: "OO", "Material::mat0", "Model::default"
+	Connect: "OO", "Material::mat1", "Model::default"
+}

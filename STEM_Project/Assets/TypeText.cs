@@ -30,9 +30,9 @@ public class TypeText : MonoBehaviour
             textObject.text = currentText;
 
             if(currentText.Length>1&&currentText[currentText.Length-1]=='.')
-                yield return new WaitForSeconds(.6f);
+                yield return new WaitForSeconds(.5f);
             else
-                yield return new WaitForSeconds(.03f);
+                yield return new WaitForSeconds(.025f);
         }
 
     }

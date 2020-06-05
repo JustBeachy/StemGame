@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
-    public int lessonNum;
+    public List<int> ListOfLessons;
     public GameObject screenToCreate;
     public GameObject nextLesson;
     public string directions;
     public GameObject Arrow;
     public int arrowPos=0;
     Text directionTxt;
+
+    
     
     
     // Start is called before the first frame update
@@ -35,20 +37,24 @@ public class Controller : MonoBehaviour
 
     public void NextStep()
     {
+
         if (screenToCreate != null)
             Instantiate(screenToCreate, GameObject.FindGameObjectWithTag("Canvas").transform);
         else
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Movement>().canMove=true;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Movement>().canMove = true;
 
-        gameObject.GetComponent<Controller>().lessonNum = nextLesson.GetComponent<Controller>().lessonNum;
-        StaticVars.lessonCount = lessonNum;
+
+        gameObject.GetComponent<Controller>().ListOfLessons = nextLesson.GetComponent<Controller>().ListOfLessons;
+        
         gameObject.GetComponent<Controller>().screenToCreate = nextLesson.GetComponent<Controller>().screenToCreate;
         gameObject.GetComponent<Controller>().nextLesson = nextLesson.GetComponent<Controller>().nextLesson;
 
         gameObject.GetComponent<Controller>().directions = nextLesson.GetComponent<Controller>().directions;
         gameObject.GetComponent<Controller>().arrowPos = nextLesson.GetComponent<Controller>().arrowPos;
 
-        if(directions!="")
+       
+
+        if (directions!="")
         SetDirectionText();
         SetArrowPos();
 

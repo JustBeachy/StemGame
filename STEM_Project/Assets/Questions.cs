@@ -24,7 +24,7 @@ public class Questions : MonoBehaviour
 
     private void Awake()
     {
-        questionToDisplay = StaticVars.lessonCount;
+        questionToDisplay = GameObject.FindGameObjectWithTag("Controller").GetComponent<Controller>().ListOfLessons[0];
     }
 
     void Start()

@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     public GameObject laptop;
     public GameObject createScreen;
     public GameObject LaptopLoginScreen;
+    public GameObject PinScreen;
+    public GameObject SwipeScreen;
     public bool canMove = true;
     // Start is called before the first frame update
     void Start()
@@ -43,6 +45,14 @@ public class Movement : MonoBehaviour
             if(other.name=="Laptop")
             {
                 Instantiate(LaptopLoginScreen, GameObject.FindGameObjectWithTag("Canvas").transform);
+            }
+            if (other.name == "Phone")
+            {
+                Instantiate(PinScreen, GameObject.FindGameObjectWithTag("Canvas").transform);
+            }
+            if (other.name == "Tablet")
+            {
+                Instantiate(SwipeScreen, GameObject.FindGameObjectWithTag("Canvas").transform);
             }
 
         }

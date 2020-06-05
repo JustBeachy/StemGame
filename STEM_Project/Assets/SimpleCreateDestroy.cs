@@ -30,11 +30,6 @@ public class SimpleCreateDestroy : MonoBehaviour
         
     }
 
-    public void CreateInfoScreen()
-    {
-        StaticVars.lessonCount++;
-        var i= Instantiate(toCreate, Canvas.transform);
-        i.GetComponent<Lesson>().lessonToDisplay = StaticVars.lessonCount;
-    }
+    
 
 }

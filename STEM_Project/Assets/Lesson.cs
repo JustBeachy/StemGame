@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class Lesson : MonoBehaviour
 {
-    public int lessonToDisplay;
+    public List<int> lessonsToDisplay;
     public GameObject textObject;
     public List<string> lessonText = new List<string>();
 
     // Start is called before the first frame update
     void Awake()
     {
-        lessonToDisplay = StaticVars.lessonCount;
+        
     
         LoadLessons();
 
@@ -25,6 +25,7 @@ public class Lesson : MonoBehaviour
 
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -33,7 +34,14 @@ public class Lesson : MonoBehaviour
 
     void FillText()
     {
-        textObject.GetComponent<Text>().text = lessonText[lessonToDisplay];
+        lessonsToDisplay = GameObject.FindGameObjectWithTag("Controller").GetComponent<Controller>().ListOfLessons;
+
+        for(int i=0; i<lessonsToDisplay.Count;i++)
+        {
+           
+            textObject.GetComponent<Text>().text += lessonText[lessonsToDisplay[i]]+"\n"+"\n";
+
+        }
     }
 
     void LoadLessons()
