@@ -83,8 +83,8 @@ public class Questions : MonoBehaviour
 
     void LoadQuestions()
     {
-        //-1 from index
-        //Question 1 (Multiple Choice)
+        
+        //Question 0 (Multiple Choice)
         questionList.Add("What best describes the 3 main ideas to keep you safe while using technology?");
         aList.Add("A. DEA");
         bList.Add("B. CIA");
@@ -93,7 +93,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("CIA stands for confidentiality, intregrity, and availability. All 3 of these principles help you stay safe while using technology!");
 
-        //Question 2 (Multiple Choice)
+        //Question 1 (Multiple Choice)
         questionList.Add("What is encryption?");
         aList.Add("A. Group of people working together");
         bList.Add("B. Catches someone stealing your password");
@@ -102,7 +102,7 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("ENCRYPTION is so IMPORTANT when not just using technology, but when communicating with others because it provides more safety for you!");
 
-        //Question 3 (Multiple Choice)
+        //Question 2 (Multiple Choice)
         questionList.Add("If you lose your ID badge then you may not ______ the hackers/attackers.");
         aList.Add("A. Deter");
         bList.Add("B. Be friends with");
@@ -111,7 +111,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("You can strengthen your security and your safety by DETERRING hackers/attackers.");
 
-        //Question 4 (True/False)
+        //Question 3 (True/False)
         questionList.Add("Your teacher audits you.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -120,7 +120,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("AUDITING helps hold subjects accountable for their actions by monitoring them.");
 
-        //Question 5 (Multiple Choice)
+        //Question 4 (Multiple Choice)
         questionList.Add("AAA stands for _____, _____, _____.");
         aList.Add("A. Abstract, Authorize, Audit");
         bList.Add("B. Authenticate, Authorize, Audit");
@@ -129,7 +129,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("The AAA is authenticate, authorize, and audit all help the subject remain safe whle on the object.");
 
-        //Question 6 (Multiple Choice)
+        //Question 5 (Multiple Choice)
         questionList.Add("Whats the equation for risk?");
         aList.Add("A. Threat + Vulnerability - Attack");
         bList.Add("B. Single Loss Expcetancy X Annual Rate of Occurence");
@@ -138,7 +138,7 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("RISK is the possisbility that a THREAT will take advantage of a VULNERABILTY, which can harm you!");
 
-        //Question 7 (Multiple Choice)
+        //Question 6 (Multiple Choice)
         questionList.Add("An unauthorized access attack can be done by _____?");
         aList.Add("A. Humans");
         bList.Add("B. Letting someone not authorized use your school provided laptop or tablet");
@@ -147,7 +147,7 @@ public class Questions : MonoBehaviour
         answerList.Add("D");
         correctList.Add("UNAUTHORIZED ACCESS ATTACK are the most overlooked attack because humans are the weakest link and can happen to anyone, anywhere!");
 
-        //Question 8 (True/False)
+        //Question 7 (True/False)
         questionList.Add("Students birthdays are top secret information.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -156,7 +156,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("TOP SECRET/PROPIERTARY information must be kept on a need-to-know basis for certain subjects because if a hacker/attacker finds it, you can be vulnerable to danger!");
 
-        //Question 9 (True/False)
+        //Question 8 (True/False)
         questionList.Add("Your school grades data state is at REST.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -165,7 +165,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("DATA AT REST is any information/data being stored on your object.");
 
-        //Question 10 (True/False)
+        //Question 9 (True/False)
         questionList.Add("Your teacher can ask IT workers to check their filtering system to see what your digital footprint left.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -174,7 +174,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("FILTERING SYSTEMS are a firewall that monitor which subject is using the object. DIGITAL FOOTPRINT is the subjects history that can be tracked.");
 
-        //Question 11 (True/False)
+        //Question 10 (True/False)
         questionList.Add("You recieve an email that someone in California tried to access your account, you should allow it.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -183,7 +183,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("Allowing somebody you dont know to access your account makes you VULNERABLE and puts you at RISK!");
 
-        //Question 12 (True/False)
+        //Question 11 (True/False)
         questionList.Add("Stealing information like music or your classmate's password can be considered breaking cybercrimes and you could go to jail/prison.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -192,7 +192,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("Stealing at any age can get you in trouble by your teacher, principal, parent, and the police.");
 
-        //Question 13 (True/False)
+        //Question 12 (True/False)
         questionList.Add("The C in the CIA triad prevents unauthorized access.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -201,7 +201,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("C is for CONFIDENTIALITY and you must keep your information/data a secret.");
 
-        //Question 15 (Multiple Choice)
+        //Question 13 (Multiple Choice)
         questionList.Add("What are the correct types of memory?");
         aList.Add("A. RAM");
         bList.Add("B. ROM");
@@ -210,7 +210,7 @@ public class Questions : MonoBehaviour
         answerList.Add("D");
         correctList.Add("RAM and ROM can be on any of your technological devices, examples of this are your phone, tablet, or laptop.");
 
-        //Question 16 (Multiple Choice)
+        //Question 14 (Multiple Choice)
         questionList.Add("Now that you deleted your history, your teacher & IT people can see what you deleted, why?");
         aList.Add("A. Because your system is VOLATILE");
         bList.Add("B. Because your system is NONVOLATILE");
@@ -219,7 +219,7 @@ public class Questions : MonoBehaviour
         answerList.Add("D");
         correctList.Add("NONVOLATILE memory keeps everything you have done on the object forever.");
 
-        //Question 17 (Multiple Choice)
+        //Question 15 (Multiple Choice)
         questionList.Add("What is considered to be a data warehouse?");
         aList.Add("A. Website/Database that holds your grades, address, middle name, parents name, etc");
         bList.Add("B. Your classroom");
@@ -228,7 +228,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("DATA WAREHOUSE stores all your information used at your school.");
 
-        //Question 18 (Multiple Choice)
+        //Question 16 (Multiple Choice)
         questionList.Add("What type of cloud computing did you use for you and your group project?");
         aList.Add("A. Nonvolatile");
         bList.Add("B. Community");
@@ -237,7 +237,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("COMMUNITY cloud computing only allows certain subjects you authorized to work on your assignment.");
 
-        //Question 19 (True/False)
+        //Question 17 (True/False)
         questionList.Add("You havent updated your password in 42 days, you should update it.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -246,7 +246,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("To make sure your safe, you should consistently update your password every 30 days or you can be at RISK of being hacked/attacked.");
 
-        //Question 20 (True/False)
+        //Question 18 (True/False)
         questionList.Add("Updates are part of IPS.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -255,7 +255,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("IPS stands for intrusion prevention systems that stand in the way of hackers/attackers.");
 
-        //Question 21 (Multiple Choice)
+        //Question 19 (Multiple Choice)
         questionList.Add("Who allows the most dangerous attacks, UNAUTHORIZED ACCESS attacks?");
         aList.Add("A. Phishing");
         bList.Add("B. Happens rarely");
@@ -264,7 +264,7 @@ public class Questions : MonoBehaviour
         answerList.Add("D");
         correctList.Add("HUMANS are the weakest link!");
 
-        //Question 22 (True/False)
+        //Question 20 (True/False)
         questionList.Add("notAhackerrrr@email.com wants your address, you should give it to them.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -273,7 +273,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("Remember that THREAT X VULNERABILITY = RISK. If you dont know someone who messaged you and you message them back, you put your self at risk!");
 
-        //Question 23 (Multiple Choice)
+        //Question 21 (Multiple Choice)
         questionList.Add("What type of attack is this?");
         aList.Add("A. Man-in-the-Middle");
         bList.Add("B. Phishing");
@@ -282,7 +282,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("Again, THREAT X VULNERABILTY = RISK. Always double check who your talking too because if you dont know who your talking too, then you can be in danger!");
 
-        //Question 24 (True/False)
+        //Question 22 (True/False)
         questionList.Add("When going from APPLICATION to PHYSICAL layer, you are encapsulating.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -291,7 +291,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("ENCAPSULATING holds and protects the security of your information/data.");
 
-        //Question 25 (Multiple Choice)
+        //Question 23 (Multiple Choice)
         questionList.Add("What layer consists of visualization (JPEG or TIFF)?");
         aList.Add("A. OSI");
         bList.Add("B. Physical");
@@ -300,7 +300,7 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("VISUALIZATION encrypts messages and pictures for subjects to see at the PRESENTATION layer.");
 
-        //Question 26 (Multiple Choice)
+        //Question 24 (Multiple Choice)
         questionList.Add("At what layer does IP addresses pop-up?");
         aList.Add("A. Network");
         bList.Add("B. Physical");
@@ -309,7 +309,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("Every object has an IP ADDRESS to label who/where the subject is on the NETWORK layer, like in mailbox.");
 
-        //Question 27 (Multiple Choice)
+        //Question 25 (Multiple Choice)
         questionList.Add("What layer of the OSI may this attack occur?");
         aList.Add("A. TCI");
         bList.Add("B. SYN/ACK");
@@ -318,7 +318,7 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("SYN FLOOD ATTACKS overwhealm and stop all communication between subjects.");
 
-        //Question 28 (Multiple Choice)
+        //Question 26 (Multiple Choice)
         questionList.Add("Whats the strongest biometric password?");
         aList.Add("A. Something you know");
         bList.Add("B. Retina");
@@ -327,7 +327,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("BIOMETRICS is SOMETHING YOU ARE and can allow authentication. RETINA scans focus on the blood vessels at the back of your eye.");
 
-        //Question 29 (Multiple Choice)
+        //Question 27 (Multiple Choice)
         questionList.Add("Uh oh! Your locked out of your account, what type of error has your school used?");
         aList.Add("A. False acceptance");
         bList.Add("B. Biometric");
@@ -336,7 +336,7 @@ public class Questions : MonoBehaviour
         answerList.Add("D");
         correctList.Add("FALSE REJECTION is very sensitive and is not your fault, your school created STRICT security to make sure your safe.");
 
-        //Question 30 (Multiple Choice)
+        //Question 28 (Multiple Choice)
         questionList.Add("How many characters should you have at least?");
         aList.Add("A. 12");
         bList.Add("B. 53");
@@ -345,7 +345,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("ALL your passswords should be at least 12 characters long because they can take a year to hack/attack!");
 
-        //Question 31 (Multiple Choice)
+        //Question 29 (Multiple Choice)
         questionList.Add("What type of test is this?");
         aList.Add("A. Type 1");
         bList.Add("B. White");
@@ -354,7 +354,7 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("TYPE 2 can test the activity that has happened to an object for the last 6 months! This is a job that you can do when your older!");
 
-        //Question 32 (Multiple Choice)
+        //Question 30 (Multiple Choice)
         questionList.Add("What type of pen test is this?");
         aList.Add("A. White");
         bList.Add("B. Black");
@@ -363,7 +363,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("WHITE pen tests are when subjects KNOW A LOT about who their testing.");
 
-        //Question 33 (Multiple Choice)
+        //Question 31 (Multiple Choice)
         questionList.Add("Why would this be called a Xmas attack?");
         aList.Add("A. Only done around Christmas");
         bList.Add("B. Shows all the ports");
@@ -372,7 +372,7 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("When a pen tester wants to try and make sure a subject is safe, they will perform a XMAS ATTACK to see what ports/addresses are opened, the open ports/addresses will light up like a Christmas Tree! These are the ports/addresses that the subject should look to secure even more!");
 
-        //Question 34 (Multiple Choice)
+        //Question 32 (Multiple Choice)
         questionList.Add("What layer would this pen test attack occur at?");
         aList.Add("A. Transport");
         bList.Add("B. Xmas");
@@ -381,7 +381,7 @@ public class Questions : MonoBehaviour
         answerList.Add("A");
         correctList.Add("Because communication occurs at the TRANSPORT layer and this pen test attacks to see who/where the subject can communicate with.");
 
-        //Question 35 (True/False)
+        //Question 33 (True/False)
         questionList.Add("This is secure through symmetric cryptography; you should send your top secret information to your teacher.");
         aList.Add("A. True");
         bList.Add("B. False");
@@ -390,7 +390,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("SYMMETRIC CRYPTOGRAPHY can be seen by any hacker/attacker because this is a WEAK way of communicating.");
 
-        //Question 36 (Multiple Choice)
+        //Question 34 (Multiple Choice)
         questionList.Add("What should you do with this email?");
         aList.Add("A. Send email");
         bList.Add("B. Leave and go to lunch");
@@ -399,16 +399,16 @@ public class Questions : MonoBehaviour
         answerList.Add("C");
         correctList.Add("As said before in other questions... RISK = THREAT X VULNERABILITY. If you dont know who is messaging you, DO NOT respond or you can be in danger!");
 
-        //Question 37 (True/False)
+        //Question 35 (True/False)
         questionList.Add("This is a good way to secure your asymmetric message.");
         aList.Add("A. True");
         bList.Add("B. False");
         cList.Add("");
         dList.Add("");
         answerList.Add("A");
-        correctList.Add("ASYMMETRIC CRPROGRAPHY allows the sender and reciever to have their own SECRET key to open up a message because even if an hacker/attacker intercepts the message, they dont have the SECRET key to open it.");
+        correctList.Add("ASYMMETRIC CRYPTOGRAPHY allows the sender and reciever to have their own SECRET key to open up a message because even if an hacker/attacker intercepts the message, they dont have the SECRET key to open it.");
 
-        //Question 38 (Multiple Choice)
+        //Question 36 (Multiple Choice)
         questionList.Add("You live in Michigan and have a lot of snow days with power outages, what type of alternative site should you have to secure all your information or data?");
         aList.Add("A. Michigan");
         bList.Add("B. Hot");
@@ -417,7 +417,7 @@ public class Questions : MonoBehaviour
         answerList.Add("B");
         correctList.Add("HOT SITES are used for businesses, government, or even your school to AUTOMATICALLY restart what they were doing. This is because everything was saved and AUTOMATICALLY sent over to their back-up location.");
 
-        //Question 39 (True/False)
+        //Question 37 (True/False)
         questionList.Add("The 7 main ways to stop attacks are to have control physical and electronic access to systems, create strong passwords or hash or salt, multifactor authentication, account lockout controls, last logon notification, classifications, and educate others.");
         aList.Add("A. True");
         bList.Add("B. False");

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8229982529821716877}
   - component: {fileID: -5994258747597730334}
   m_Layer: 0
-  m_Name: Step8
+  m_Name: 3. Question
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   ListOfLessons: 0c000000
   screenToCreate: {fileID: 6092661587671362276, guid: c6b72132d2c25a74ca000ebbeb8bdec6,
     type: 3}
-  nextLesson: {fileID: 4687541958167242824, guid: afce5571a6f42d144ab0fbf0893118f9,
+  nextLesson: {fileID: 4687541958167242824, guid: 792adb80443c73b48b88c89d5fb7303e,
     type: 3}
   directions: 
   Arrow: {fileID: 0}

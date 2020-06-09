@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Draggable : MonoBehaviour, IPointerDownHandler
+public class Draggable : MonoBehaviour
 {
     private bool dragging;
     public string AreaName;
@@ -13,6 +13,8 @@ public class Draggable : MonoBehaviour, IPointerDownHandler
     float timer = -5;
     public GameObject toDestroy;
     public bool isLeader = false;
+    List<RaycastResult> rayList = new List<RaycastResult>();
+    
 
     private void Start()
     {
@@ -22,9 +24,18 @@ public class Draggable : MonoBehaviour, IPointerDownHandler
     {
         if (dragging)
         {
-            transform.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            transform.position = Input.mousePosition;
         }
 
+        if(Input.GetMouseButton(0))
+        {
+            var pointer = new PointerEventData(EventSystem.current);
+            pointer.position = Input.mousePosition;
+            EventSystem.current.RaycastAll(pointer, rayList);
+            if (rayList.Count > 0 && rayList[0].gameObject==gameObject)
+                dragging = true;
+
+        }
         if(Input.GetMouseButtonUp(0))
         {
             dragging = false;
@@ -64,11 +75,7 @@ public class Draggable : MonoBehaviour, IPointerDownHandler
 
     }
 
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        
-            dragging = true;
-    }
+  
 
     void OnTriggerEnter2D(Collider2D other)
     {
