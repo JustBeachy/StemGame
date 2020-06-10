@@ -19,9 +19,13 @@ public class Draggable : MonoBehaviour
     private void Start()
     {
         
+        if (AreaName == "none")
+            inCorrectSpot = true;
     }
     public void Update()
     {
+
+
         if (dragging)
         {
             transform.position = Input.mousePosition;
@@ -39,26 +43,7 @@ public class Draggable : MonoBehaviour
         if(Input.GetMouseButtonUp(0))
         {
             dragging = false;
-
-
-            var dragList =GameObject.FindGameObjectsWithTag("Draggable");
-            bool allCorrect = true;
-            foreach (GameObject g in dragList)
-            {
-                if (!g.GetComponent<Draggable>().inCorrectSpot)
-                {
-                    allCorrect = false;
-                    break;
-                }
-            }
-            if (allCorrect)///////if all correct
-            {
-                if(correctTxt!=null)
-                correctTxt.text = "Correct!";
-                timer = 2;
-                
-            }
-               
+            CheckIfComplete();
         }
 
         if(timer>=0)
@@ -83,9 +68,46 @@ public class Draggable : MonoBehaviour
         {
             if (other.gameObject.GetComponent<DragArea>().AreaName == gameObject.GetComponent<Draggable>().AreaName)
                 inCorrectSpot = true;
+            if (AreaName=="none")
+                inCorrectSpot = false;
         }
 
     }
-  
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "DragArea")
+        {
+            if (AreaName == "none")
+                inCorrectSpot = true;
+            else
+                inCorrectSpot = false;
+        }
+    }
+
+    void CheckIfComplete()
+    {
+        if (isLeader)
+        {
+            var dragList = GameObject.FindGameObjectsWithTag("Draggable");
+            bool allCorrect = true;
+            for (int d = 0; d < dragList.Length; d++)
+            {
+                if (dragList[d].GetComponent<Draggable>().inCorrectSpot == false)
+                {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            if (allCorrect)///////if all correct
+            {
+                if (correctTxt != null)
+                    correctTxt.text = "Correct!";
+                timer = 2;
+
+            }
+        }
+    }
+
+
 }
 

@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\ABCD.cs" />
     <Compile Include="Assets\ArrowBob.cs" />
+    <Compile Include="Assets\ChapterJump.cs" />
     <Compile Include="Assets\Controller.cs" />
     <Compile Include="Assets\CurrentDevice.cs" />
     <Compile Include="Assets\DragArea.cs" />
