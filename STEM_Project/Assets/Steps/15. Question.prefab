@@ -46,8 +46,7 @@ MonoBehaviour:
   ListOfLessons: 06000000
   screenToCreate: {fileID: 6092661587671362276, guid: c6b72132d2c25a74ca000ebbeb8bdec6,
     type: 3}
-  nextLesson: {fileID: 4687541958167242824, guid: 698196fb5ffe6a34288aa7206398bf00,
+  nextLesson: {fileID: 4687541958167242824, guid: 1cd7298eed77c894696a9ce2965381d9,
     type: 3}
-  directions: 
   Arrow: {fileID: 0}
   arrowPos: 1

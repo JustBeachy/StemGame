@@ -413,7 +413,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drag and drop each subject/object to their correct spots.
+  m_Text: 'Drag and Drop: Each object/subject to their right spots'
 --- !u!1 &6030361184264276309
 GameObject:
   m_ObjectHideFlags: 0

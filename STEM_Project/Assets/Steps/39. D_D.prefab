@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8229982529821716877}
   - component: {fileID: -5994258747597730334}
   m_Layer: 0
-  m_Name: 39. D&D
+  m_Name: 39. D_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,10 +44,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListOfLessons: 
-  screenToCreate: {fileID: 6092661587671362276, guid: e7a7e777a58e1b34599905295ea3cf02,
+  screenToCreate: {fileID: 6092661587671362276, guid: be033d388719e8445924f6fa78d40d89,
     type: 3}
   nextLesson: {fileID: 4687541958167242824, guid: 52d7052af10b9df439164ab49e0f41d8,
     type: 3}
-  directions: Walk to Laptop.
   Arrow: {fileID: 0}
   arrowPos: 2

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8229982529821716877}
   - component: {fileID: -5994258747597730334}
   m_Layer: 0
-  m_Name: 72. D&D
+  m_Name: 15.5 Walk to Tablet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,10 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20ba397678ea35c4eb627ea43452436a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListOfLessons: 
-  screenToCreate: {fileID: 6092661587671362276, guid: e7a7e777a58e1b34599905295ea3cf02,
-    type: 3}
-  nextLesson: {fileID: 4687541958167242824, guid: 84ac4803ad813114e80be4d13722ed7b,
+  ListOfLessons: 06000000
+  screenToCreate: {fileID: 0}
+  nextLesson: {fileID: 4687541958167242824, guid: 698196fb5ffe6a34288aa7206398bf00,
     type: 3}
   Arrow: {fileID: 0}
   arrowPos: 3

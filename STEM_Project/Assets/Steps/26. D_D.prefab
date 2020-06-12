@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8229982529821716877}
   - component: {fileID: -5994258747597730334}
   m_Layer: 0
-  m_Name: 26. D&D
+  m_Name: 26. D_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListOfLessons: 
-  screenToCreate: {fileID: 6092661587671362276, guid: e7a7e777a58e1b34599905295ea3cf02,
+  screenToCreate: {fileID: 6092661587671362276, guid: e725b7bf6c4e8db429d9732132c52265,
     type: 3}
   nextLesson: {fileID: 4687541958167242824, guid: 867d97cc3663c274f9a1e5ffbd1c9c52,
     type: 3}

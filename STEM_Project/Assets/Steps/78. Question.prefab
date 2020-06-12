@@ -49,4 +49,4 @@ MonoBehaviour:
   nextLesson: {fileID: 4687541958167242824, guid: a1af3c3b0ee0f7649a8944a997e476a4,
     type: 3}
   Arrow: {fileID: 0}
-  arrowPos: 1
+  arrowPos: 3

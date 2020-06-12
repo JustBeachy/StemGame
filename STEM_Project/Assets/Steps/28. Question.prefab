@@ -48,6 +48,5 @@ MonoBehaviour:
     type: 3}
   nextLesson: {fileID: 4687541958167242824, guid: 8555bb4e12c1a5946a86ceb563691290,
     type: 3}
-  directions: 
   Arrow: {fileID: 0}
   arrowPos: 2
