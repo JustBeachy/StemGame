@@ -215,7 +215,7 @@ public class Questions : MonoBehaviour
         aList.Add("A. Because your system is VOLATILE");
         bList.Add("B. Because your system is NONVOLATILE");
         cList.Add("C. Because their the boss");
-        dList.Add("D. Because your system is NONVOLATILE and they have access to your information at all times");
+        dList.Add("D. Your system is NONVOLATILE and have access to all ");
         answerList.Add("D");
         correctList.Add("NONVOLATILE memory keeps everything you have done on the object forever.");
 
@@ -274,7 +274,7 @@ public class Questions : MonoBehaviour
         correctList.Add("Remember that THREAT X VULNERABILITY = RISK. If you dont know someone who messaged you and you message them back, you put your self at risk!");
 
         //Question 21 (Multiple Choice)
-        questionList.Add("What type of attack is this?");
+        questionList.Add("What type of attack has an attacker that sits between two users and steals your information/data?");
         aList.Add("A. Man-in-the-Middle");
         bList.Add("B. Phishing");
         cList.Add("C. Unauthorized access");
@@ -310,7 +310,7 @@ public class Questions : MonoBehaviour
         correctList.Add("Every object has an IP ADDRESS to label who/where the subject is on the NETWORK layer, like in mailbox.");
 
         //Question 25 (Multiple Choice)
-        questionList.Add("What layer of the OSI may this attack occur?");
+        questionList.Add("What layer of the OSI may SYN FLOOD ATTACKS occur (stops communication among users?");
         aList.Add("A. TCI");
         bList.Add("B. SYN/ACK");
         cList.Add("C. Transport");
@@ -346,7 +346,7 @@ public class Questions : MonoBehaviour
         correctList.Add("ALL your passswords should be at least 12 characters long because they can take a year to hack/attack!");
 
         //Question 29 (Multiple Choice)
-        questionList.Add("What type of test is this?");
+        questionList.Add("What type of test researches 6 MONTHS of your history?");
         aList.Add("A. Type 1");
         bList.Add("B. White");
         cList.Add("C. Type 2");
@@ -355,7 +355,7 @@ public class Questions : MonoBehaviour
         correctList.Add("TYPE 2 can test the activity that has happened to an object for the last 6 months! This is a job that you can do when your older!");
 
         //Question 30 (Multiple Choice)
-        questionList.Add("What type of pen test is this?");
+        questionList.Add("What type of pen test KNOW A LOT about your information?");
         aList.Add("A. White");
         bList.Add("B. Black");
         cList.Add("C. Type 1");
@@ -364,16 +364,16 @@ public class Questions : MonoBehaviour
         correctList.Add("WHITE pen tests are when subjects KNOW A LOT about who their testing.");
 
         //Question 31 (Multiple Choice)
-        questionList.Add("Why would this be called a Xmas attack?");
+        questionList.Add("What is a Xmas attack?");
         aList.Add("A. Only done around Christmas");
-        bList.Add("B. Shows all the ports");
-        cList.Add("C. All open ports alert the pen testers");
+        bList.Add("B. Shows all ports");
+        cList.Add("C. All open ports and alert the pen testers");
         dList.Add("D. None of the above");
         answerList.Add("C");
         correctList.Add("When a pen tester wants to try and make sure a subject is safe, they will perform a XMAS ATTACK to see what ports/addresses are opened, the open ports/addresses will light up like a Christmas Tree! These are the ports/addresses that the subject should look to secure even more!");
 
         //Question 32 (Multiple Choice)
-        questionList.Add("What layer would this pen test attack occur at?");
+        questionList.Add("What layer would attack communication for the SYN/ACK 3 WAY HANDSHAKE?");
         aList.Add("A. Transport");
         bList.Add("B. Xmas");
         cList.Add("C. White");
@@ -382,7 +382,7 @@ public class Questions : MonoBehaviour
         correctList.Add("Because communication occurs at the TRANSPORT layer and this pen test attacks to see who/where the subject can communicate with.");
 
         //Question 33 (True/False)
-        questionList.Add("This is secure through symmetric cryptography; you should send your top secret information to your teacher.");
+        questionList.Add("You are secure through symmetric cryptography if you want to send your top secret information to your teacher.");
         aList.Add("A. True");
         bList.Add("B. False");
         cList.Add("");
@@ -391,7 +391,7 @@ public class Questions : MonoBehaviour
         correctList.Add("SYMMETRIC CRYPTOGRAPHY can be seen by any hacker/attacker because this is a WEAK way of communicating.");
 
         //Question 34 (Multiple Choice)
-        questionList.Add("What should you do with this email?");
+        questionList.Add("What should you do with an email that asks for your address and social security?");
         aList.Add("A. Send email");
         bList.Add("B. Leave and go to lunch");
         cList.Add("C. Throw in the trash or delete it");
@@ -400,7 +400,7 @@ public class Questions : MonoBehaviour
         correctList.Add("As said before in other questions... RISK = THREAT X VULNERABILITY. If you dont know who is messaging you, DO NOT respond or you can be in danger!");
 
         //Question 35 (True/False)
-        questionList.Add("This is a good way to secure your asymmetric message.");
+        questionList.Add("Asymmetric cryptography is the best way to send important/sensitive message.");
         aList.Add("A. True");
         bList.Add("B. False");
         cList.Add("");
