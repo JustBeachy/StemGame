@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\ABCD.cs" />
     <Compile Include="Assets\ArrowBob.cs" />
+    <Compile Include="Assets\Back.cs" />
     <Compile Include="Assets\ChapterJump.cs" />
     <Compile Include="Assets\Controller.cs" />
     <Compile Include="Assets\CurrentDevice.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Lesson.cs" />
     <Compile Include="Assets\Minigame1.cs" />
     <Compile Include="Assets\MiniGame1Spawner.cs" />
+    <Compile Include="Assets\MMAnimation.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\NextButton.cs" />
     <Compile Include="Assets\PinUnlock.cs" />

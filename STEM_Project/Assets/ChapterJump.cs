@@ -29,7 +29,7 @@ public class ChapterJump : MonoBehaviour
             Controller.GetComponent<Controller>().NextStep();
             Controller.GetComponent<Controller>().NextStep();
             //Controller.GetComponent<Controller>().SetArrowPos();
-
+            Controller.GetComponent<Back>().StepList.Add(ChapterStartStep.GetComponent<Controller>().nextLesson); //add selected lesson to back button list
         }
     }
 }

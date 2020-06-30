@@ -43,11 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20ba397678ea35c4eb627ea43452436a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListOfLessons: 1b0000001c0000001d0000001e000000
+  ListOfLessons: 1b0000001c0000001e000000
   screenToCreate: {fileID: 6092661587671362276, guid: 1fbad0008b09f014e8f4566e8795a28f,
     type: 3}
   nextLesson: {fileID: 4687541958167242824, guid: 0dc356272e26c9d448fef4e1b1a1dff7,
     type: 3}
-  directions: 
   Arrow: {fileID: 0}
   arrowPos: 1

@@ -101,7 +101,10 @@ public class Draggable : MonoBehaviour
             if (allCorrect)///////if all correct
             {
                 if (correctTxt != null)
+                {
                     correctTxt.text = "Correct!";
+                    GetComponent<AudioSource>().Play();
+                }
                 timer = 2;
 
             }

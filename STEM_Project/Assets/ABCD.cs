@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class ABCD : MonoBehaviour
 {
     public bool isAnswer = false;
+    public AudioClip rightSound, wrongSound;
+    public AudioSource AS;
     public string CorrectText;
     float timer = -5;
     public GameObject toDestroy;
@@ -33,6 +35,8 @@ public class ABCD : MonoBehaviour
     {
         if(isAnswer)
         {
+            AS.clip = rightSound;
+            AS.Play();
             gameObject.GetComponent<Text>().color = Color.green;
             GetComponentInParent<Questions>().correctField.GetComponent<Text>().text ="Correct! "+ CorrectText; //display correct text
             timer = 5;
@@ -40,6 +44,8 @@ public class ABCD : MonoBehaviour
         }
         else
         {
+            AS.clip = wrongSound;
+            AS.Play();
             gameObject.GetComponent<Text>().color = Color.red;
         }
     }

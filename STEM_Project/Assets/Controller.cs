@@ -22,6 +22,8 @@ public class Controller : MonoBehaviour
         directionTxt = GameObject.FindGameObjectWithTag("Directions").GetComponent<Text>();
         
         SetArrowPos();
+
+        
     }
 
     // Update is called once per frame
@@ -32,14 +34,18 @@ public class Controller : MonoBehaviour
 
    
 
-    public void NextStep()
+    public void NextStep(bool isBack=false)
     {
        // SetDirectionText();
         SetArrowPos();
 
 
         if (screenToCreate != null)
+        {
             Instantiate(screenToCreate, GameObject.FindGameObjectWithTag("Canvas").transform);
+            if(!isBack)
+            gameObject.GetComponent<Back>().StepList.Add(GetComponent<Controller>().nextLesson);//add to back list
+        }
         else
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Movement>().canMove = true;
 
@@ -52,12 +58,10 @@ public class Controller : MonoBehaviour
        // gameObject.GetComponent<Controller>().directions = nextLesson.GetComponent<Controller>().directions;
         gameObject.GetComponent<Controller>().arrowPos = nextLesson.GetComponent<Controller>().arrowPos;
 
-       
-
-        
-       
 
     }
+
+   
 
     public void SetArrowPos()
     {
