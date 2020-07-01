@@ -83,10 +83,12 @@
     <Compile Include="Assets\MMAnimation.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\NextButton.cs" />
+    <Compile Include="Assets\PasswordText.cs" />
     <Compile Include="Assets\PinUnlock.cs" />
     <Compile Include="Assets\Questions.cs" />
     <Compile Include="Assets\SimpleCreateDestroy.cs" />
     <Compile Include="Assets\SwipeUnlock.cs" />
+    <Compile Include="Assets\TimeText.cs" />
     <Compile Include="Assets\TypeText.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>B:/Games/STEM_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

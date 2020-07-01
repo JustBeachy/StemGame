@@ -3885,7 +3885,7 @@ PrefabInstance:
     - target: {fileID: 4416955366958715810, guid: 3fd4c77ad8faece4a99520903a3cd1a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4416955366958715810, guid: 3fd4c77ad8faece4a99520903a3cd1a9,
         type: 3}
@@ -4262,6 +4262,26 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0bca7d324aabb8449827382c2f451a04, type: 3}
+    - target: {fileID: 9209611166885648791, guid: 3fd4c77ad8faece4a99520903a3cd1a9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8254717
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209611166885648791, guid: 3fd4c77ad8faece4a99520903a3cd1a9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209611166885648791, guid: 3fd4c77ad8faece4a99520903a3cd1a9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9043914
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994309336235266633, guid: 3fd4c77ad8faece4a99520903a3cd1a9,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60163829483177763, guid: 3fd4c77ad8faece4a99520903a3cd1a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3fd4c77ad8faece4a99520903a3cd1a9, type: 3}

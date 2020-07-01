@@ -16,7 +16,7 @@ public class MMAnimation : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        gameObject.transform.position += new Vector3(0, 100*flip, 0) * Time.deltaTime;
+        gameObject.transform.position += new Vector3(0, (Screen.height/15)*flip, 0) * Time.deltaTime;
 
         if(timer>1)
         {
