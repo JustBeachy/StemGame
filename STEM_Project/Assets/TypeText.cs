@@ -32,7 +32,7 @@ public class TypeText : MonoBehaviour
             if(currentText.Length>1&&currentText[currentText.Length-1]=='.')
                 yield return new WaitForSeconds(.5f);
             else
-                yield return new WaitForSeconds(.025f);
+                yield return new WaitForSeconds(StaticVars.TypeSpeed);
         }
 
     }

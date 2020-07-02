@@ -191,7 +191,6 @@ GameObject:
   - component: {fileID: 9209611166885648791}
   - component: {fileID: 751181676290148004}
   - component: {fileID: 151955880931811774}
-  - component: {fileID: 6193799705746482902}
   m_Layer: 5
   m_Name: LevelComplete
   m_TagString: Untagged
@@ -286,16 +285,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 8566926229522803186}
   textToWrite: 
---- !u!114 &6193799705746482902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6092661587671362276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8da5fae4d26c0f24daa48fa8b12470c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Virus: {fileID: 2109155056707352377, guid: 8550cf9b6f56e1a4ead88219ef2c6bf9, type: 3}
