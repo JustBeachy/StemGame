@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TypeText : MonoBehaviour
 {
+    public GameObject NextButton;
     public Text textObject;
     public string textToWrite;
     string currentText="";
@@ -14,6 +15,9 @@ public class TypeText : MonoBehaviour
         textToWrite = textObject.text;
         textObject.text = "";
         StartCoroutine(TypeTheText());
+
+        if (NextButton != null)
+            NextButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,6 +38,7 @@ public class TypeText : MonoBehaviour
             else
                 yield return new WaitForSeconds(StaticVars.TypeSpeed);
         }
+        NextButton.SetActive(true);
 
     }
 }

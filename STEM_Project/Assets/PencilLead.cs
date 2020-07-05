@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PencilLead : MonoBehaviour
 {
-    public GameObject Lead, LeadParent;
+    public GameObject Lead, LeadParent,EndGameScreen;
     int count = 0;
     GameObject Canvas;
+    public GameObject ScreenToDestroy;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,20 @@ public class PencilLead : MonoBehaviour
                 newLead.transform.position = transform.position;
 
             }
+        }
+    }
+
+   
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        
+        if(other.gameObject.tag=="Enemy")
+        {
+            StaticVars.StartGame = false;
+            StaticVars.MinigameSpeed = 600;
+            EndGameScreen.SetActive(true);
+            GetComponent<AudioSource>().Play();
+            
         }
     }
 }

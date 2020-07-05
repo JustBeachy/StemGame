@@ -5,13 +5,16 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
+    public GameObject MinigameScreen;
     public List<int> ListOfLessons;
     public GameObject screenToCreate;
     public GameObject nextLesson;
     string directions;
     public GameObject Arrow;
     public int arrowPos=0;
+    public bool isEndOfChapter;
     Text directionTxt;
+    
 
     
     
@@ -43,13 +46,17 @@ public class Controller : MonoBehaviour
         if (screenToCreate != null)
         {
             Instantiate(screenToCreate, GameObject.FindGameObjectWithTag("Canvas").transform);
-            if(!isBack)
-            gameObject.GetComponent<Back>().StepList.Add(GetComponent<Controller>().nextLesson);//add to back list
+            if (!isBack)
+                gameObject.GetComponent<Back>().StepList.Add(GetComponent<Controller>().nextLesson);//add to back list
         }
         else
+        {
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Movement>().canMove = true;
+            if(isEndOfChapter&&!isBack)//re-use back function for when chapter jumping so minigame isn't created
+                Instantiate(MinigameScreen, GameObject.FindGameObjectWithTag("Canvas").transform);
+        }
 
-
+        gameObject.GetComponent<Controller>().isEndOfChapter = nextLesson.GetComponent<Controller>().isEndOfChapter;
         gameObject.GetComponent<Controller>().ListOfLessons = nextLesson.GetComponent<Controller>().ListOfLessons;
         
         gameObject.GetComponent<Controller>().screenToCreate = nextLesson.GetComponent<Controller>().screenToCreate;

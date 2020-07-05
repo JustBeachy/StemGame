@@ -8,10 +8,12 @@ public class StaticVars : MonoBehaviour
     public static float TypeSpeed = .025f;
     public static float MinigameSpeed = 600;
     public static bool StartGame = false;
+    public static float TypeScrollerProgress = .5f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(GetComponent<Slider>()!=null)
+        GetComponent<Slider>().value = TypeScrollerProgress;
     }
 
     // Update is called once per frame
@@ -23,5 +25,6 @@ public class StaticVars : MonoBehaviour
     public void AdjustSpeed()
     {
         TypeSpeed = .0125f/GetComponent<Slider>().value;
+        TypeScrollerProgress = GetComponent<Slider>().value;
     }
 }

@@ -43,9 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20ba397678ea35c4eb627ea43452436a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MinigameScreen: {fileID: 0}
   ListOfLessons: 0e000000
   screenToCreate: {fileID: 0}
   nextLesson: {fileID: 4687541958167242824, guid: 6a3ea6aab09541f45a851498783f925a,
     type: 3}
   Arrow: {fileID: 0}
   arrowPos: 3
+  isEndOfChapter: 1
