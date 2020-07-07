@@ -70,6 +70,7 @@
     <Compile Include="Assets\CurrentDevice.cs" />
     <Compile Include="Assets\DragArea.cs" />
     <Compile Include="Assets\Draggable.cs" />
+    <Compile Include="Assets\GameOver.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />

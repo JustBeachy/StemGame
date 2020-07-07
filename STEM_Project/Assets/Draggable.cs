@@ -6,7 +6,8 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour
 {
-    private bool dragging;
+    public bool dragging;
+    bool dragCheck=false;
     public string AreaName;
     public Text correctTxt;
     public bool inCorrectSpot = false;
@@ -14,11 +15,13 @@ public class Draggable : MonoBehaviour
     public GameObject toDestroy;
     public bool isLeader = false;
     List<RaycastResult> rayList = new List<RaycastResult>();
+    GameObject[] draggableList;
     
 
     private void Start()
     {
-        
+        draggableList = GameObject.FindGameObjectsWithTag("Draggable");
+
         if (AreaName == "none")
             inCorrectSpot = true;
     }
@@ -28,7 +31,18 @@ public class Draggable : MonoBehaviour
 
         if (dragging)
         {
-            transform.position = Input.mousePosition;
+            foreach (GameObject g in draggableList)
+            {
+                if (g.GetComponent<Draggable>().dragging&&g!=gameObject)
+                {
+                    dragCheck = true;
+                }
+            }
+            if (dragCheck == false)
+            {
+                transform.position = Input.mousePosition;
+            }
+            dragCheck = false;
         }
 
         if(Input.GetMouseButton(0))

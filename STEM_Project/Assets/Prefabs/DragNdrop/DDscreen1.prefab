@@ -89,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99e88c419cf21643acbcc9dec14b870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragging: 0
   AreaName: Subject
   correctTxt: {fileID: 3654890920977433555}
   inCorrectSpot: 0
@@ -1088,6 +1089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99e88c419cf21643acbcc9dec14b870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragging: 0
   AreaName: Object
   correctTxt: {fileID: 0}
   inCorrectSpot: 0
@@ -1207,6 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99e88c419cf21643acbcc9dec14b870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragging: 0
   AreaName: Object
   correctTxt: {fileID: 0}
   inCorrectSpot: 0
@@ -1421,6 +1424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99e88c419cf21643acbcc9dec14b870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragging: 0
   AreaName: Object
   correctTxt: {fileID: 0}
   inCorrectSpot: 0
